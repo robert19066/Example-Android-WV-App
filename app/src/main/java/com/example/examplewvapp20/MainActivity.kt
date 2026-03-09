@@ -56,7 +56,7 @@ class MainActivity : ComponentActivity() {
                     <html>
                     <body style="font-family:sans-serif;text-align:center;margin-top:40%">
                     <h2>SimpleWV ERROR</h2>
-                    <p>DUBLICATE PRIME SHEBANGS</p>
+                    <p>DUBLICATE SHEBANGS</p>
                     <p>SimpleWV version - 2.0</p>
                     </body>
                     </html>
