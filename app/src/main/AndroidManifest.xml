@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExampleWVApp20">
         <activity
-            android:name=".Main"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.ExampleWVApp20">
             <intent-filter>
