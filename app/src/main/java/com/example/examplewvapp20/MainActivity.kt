@@ -27,7 +27,7 @@ sealed class ShebangResult {
 }
 
 enum class ErrorCode(val code: String, val title: String, val message: String) {
-    NO_PRIME_SHEBANG("001", "ENTRY POINT MISSING", "The engine searched the asset manifest but found no 'Fluid' ID or legacy shebang file."),
+    NO_PRIME_SHEBANG("001", "ENTRY POINT MISSING", "The engine searched the asset manifest but found no 'Fluid' `<div class='id1'></div> ID or StatiX Prime Shebang '_$1' "),
     DUPLICATE_SHEBANG("002", "CONFLICT DETECTED", "Multiple entry-points were found. The engine cannot decide which file to ignite."),
     ASSET_IO_ERROR("003", "FS READ FAILURE", "A critical I/O error occurred while scanning the application container."),
     RENDER_CRASH("004", "WEBVIEW PANIC", "The internal rendering engine reported a fatal frame failure.")
